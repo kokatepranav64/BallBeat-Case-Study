@@ -136,6 +136,8 @@ Import 3 files into MySQL Workbench
 
 Create Differnt Query tables tp perform Analysis on Excel
 
+You can Check my queries [here](main/Queries.txt)
+
 * Perform calculations
  Pulling statistics for analysis:
 
