@@ -83,3 +83,5 @@ A good data source is ROCCC which stands for Reliable, Original, Comprehensive, 
 > Cited — LOW — Data collected from third party, hence unknown
 >
 > Overall, the dataset is considered bad quality data and it is not recommended to produce business recommendations based on this data.
+
+# Cleaning data
