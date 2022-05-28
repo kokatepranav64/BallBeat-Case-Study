@@ -143,7 +143,7 @@ Create Differnt Query tables tp perform Analysis on Excel
 
 Like Bellabeat makes smart technology designed to track, contextualize, and present personal health data to their users in a comprehensible manner. FitBit/Bellabeat Leaf wearers use this data to improve their health, so it makes sense to analyze usage to identify the healthy (and unhealthy) tendencies shown in the data. Primarily, I’ll be looking at sleep, calories, and steps/activity.
 
-###Sleep
+### Sleep
 ![Images](viz%20Images/1.png)
                                   Recommended sleep per night is 7 hours or more according to the CDC
 
@@ -211,6 +211,53 @@ Between the three subgroups of daily active distances, distances traveled while 
 
 ![Images](viz%20Images/15.png)
                                          Sedentary activity, notably bad for your health, accounted for a vast majority of participants’ time
+                                         
+                                         
+        
+# Conclusion
+
+**Sleep**
+
+* On average, participants could’ve used more sleep throughout the week.
+
+* One way to do this might’ve been decreasing sedentary activity (by increasing the amount of time spent active).
+
+* For weekends specifically, reducing the amount of time spent in bed awake could’ve helped participants get more sleep.
+
+* Sleep was less frequently recorded on weekdays, but there were a lot of missing sleep records in general. Similarly, a quarter of the participants didn’t record any   sleep data at all. Improvement in both of these areas would increase the reliability of the data.
+  
+ **Calories**
+
+* Participants didn’t burn more calories on days that they worked vs. days they didn’t.
+  
+* If users want to burn calories, they’re best off doing so by being very active and/or increasing their daily step count.
+  
+ **Steps/Activity**
+
+* Participants could’ve used nudges on Sundays and Fridays to be more active.
+
+* Whether due to work or other reasons, the large amount of sedentary activity was a problem that seems not to have been addressed in any actionable way by               participants’ FitBits.
+
+
+#### Recommendations
+
+> **Interrupt long periods of sedentary behavior with encouragements to be active.**
+>
+> Even a short walk can help offset the consequences of being sedentary for too long, offering Bellabeat Leaf wearers the opportunity to improve their sleep and       > increase the amount of daily activity they undergo.
+>
+> **Market the Bellabeat Leaf as being comfortable even when you’re sleeping.**
+>
+> Though more data is necessary to say for sure, it’s possible that sleep data is less frequently recorded because wearing a watch in bed can be uncomfortable. 
+> Showcasing the Bellabeat Leaf’s comfortability might inspire users to wear theirs at night and collect more data on their sleeping habits.
+>
+> Additionally, it might be useful to emphasize that the Bellabeat Leaf’s battery last six months and doesn’t require charging at night.
+>
+> **Promote weight positivity so users feel encouraged and comfortable inputting their weight often.**
+>
+> A culture of body positivity might empower Bellabeat customers to feel safe inputting their weight into a database. Regardless of if users want to lose, gain, or >
+> maintain their weight, they have to first know where they’re starting from.
+
+
                                          
                                          
 
