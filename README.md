@@ -122,13 +122,13 @@ Import 3 files into MySQL Workbench
 
 * **You Can check my work of process data from dirty to clean by clicking the links below :-**
 
-[Daily_activity_merged](#main/daily_activity_merged_ddl.txt)
+    [Daily_activity_merged](main/daily_activity_merged_ddl.txt)
 
-[sleepday_merged](#main/sleepday_merged_ddl.txt)
+    [sleepday_merged](main/sleepday_merged_ddl.txt)
 
-[sleeplog](#main/sleeplog.txt)
+    [sleeplog](main/sleeplog.txt)
 
-[weight_merged](#main/weight_merged_ddl.txt)
+    [weight_merged](main/weight_merged_ddl.txt)
 
 # STEP 4: ANALYSE
 
