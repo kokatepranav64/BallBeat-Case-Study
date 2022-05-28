@@ -148,52 +148,74 @@ Like Bellabeat makes smart technology designed to track, contextualize, and pres
                                   Recommended sleep per night is 7 hours or more according to the CDC
 
 
+
+
 ![Images](viz%20Images/2.png)
                                   Sedentary minutes had the strongest linear relationship to how much sleep users got per night
+
+
 
 
 ![Images](viz%20Images/3.png)
                                   At an R² value of roughly 0.04, it’s unclear what if any effect daily steps had on sleep
 
 
+
+
 ![Images](viz%20Images/4.png)
                                   Participants spent the most time awake in bed on Sunday nights
+
+
 
 
 ![Images](viz%20Images/5.png)
                                   Out of the four levels of activity, fairly active minutes seemed to have the biggest effect on how long it took to fall asleep.                                                       However, at an R² value of only 0.103, it can’t be deemed a strong determining factor
 
 
+
+
 ![Images](viz%20Images/6.png)
                                   It’s unclear what if any effect total steps had on how long it took to fall asleep each night
+
+
 
 
 ![Images](viz%20Images/7.png)
                                   Sleep was less frequently recorded on weekdays, particularly in the middle of the week
 
 
+
 ### Calories
+
 
 
 ![Images](viz%20Images/8.png)
                                  Overall, average calorie expenditure didn’t vary much by day of the week. The difference between the highest and lowest average was                                                           166 calories, about the same as a small handful of almonds
                           
-                          
+
+
+
 ![Images](viz%20Images/9.png)
                                  Very active minutes had the strongest effect on daily caloric expenditure
+
+
 
 
 ![Images](viz%20Images/10.png)
                                  Total daily steps also had a moderately strong effect on caloric expenditure
 
 
+
+
 ![Images](viz%20Images/11.png)
                                  Hours slept had little to no effect on calories burned the next day; similarly, calories burned had little to no effect on how many                                                             hours were slept that same night
 
 
+
+
 ![Images](viz%20Images/12.png)
-                               
-Between the three subgroups of daily active distances, distances traveled while very active (which FitBit calculates using the wearer’s                                               heart rate) showed the strongest linear relationship to caloric expenditure
+                               Between the three subgroups of daily active distances, distances traveled while very active (which FitBit calculates using the wearer’s                                               heart rate) showed the strongest linear relationship to caloric expenditure
+
 
 
 
@@ -201,13 +223,18 @@ Between the three subgroups of daily active distances, distances traveled while 
 
 
 
+
 ![Images](viz%20Images/13.png)
                                          Average daily steps was under the recommended amount of 10,000 for every day of the week
                                          
 
+
+
 ![Images](viz%20Images/14.png)
                                         Both the highest and lowest average occurred on the weekend
                                         
+
+
 
 ![Images](viz%20Images/15.png)
                                          Sedentary activity, notably bad for your health, accounted for a vast majority of participants’ time
