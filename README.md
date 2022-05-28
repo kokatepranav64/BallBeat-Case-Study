@@ -93,26 +93,49 @@ A good data source is ROCCC which stands for Reliable, Original, Comprehensive, 
    
 ![Image](images/cleaning%20image.jpg)
 
-* Consistency: To start, I identified the standard character length for each user ID (10). Across all tables, there were no deviations from this and/or incorrect   inputs.
+Import 3 files into MySQL Workbench
 
-* Duplicates: I found and deleted 3 duplicate rows total, all in the SleepLog table.
+**1)** dailyActivity_merged.csv
 
-* Ambiguity: No metadata is available to confirm what metric is being used in the distance columns of the DailyActivity table. However, using a Steps-to-Distance chart from the University of Wyoming, I was able to calculate the approximate miles and kilometers corresponding to all steps in the dataset and compare each approximation to the recorded distances. The average approximate distance in kilometers was roughly four times closer to the average distance in the dataset than the average approximate distance in miles.
+**2)** sleepDay_merged.csv
 
-* Misleading records: Several records in the dataset reported a total of zero daily steps. While technically possible that these records reflect days that participants were wholly inactive—most of the same records also claim 24 hours of sedentary activity—they’re more likely reflective of days the users didn’t wear their FitBits, making the values potentially misleading. As a result, these records were deleted from the dataset.
-
-* Outliers: Five records returned a daily calorie burn of less than 1,000 calories. This is unusual, since FitBit tracks caloric burn even while users are inactive and asleep using each person’s BMR. Because of how many calories are burned per day on average while a person is at rest, it’s highly unlikely that anyone burned less than 1,000 calories regardless of activity level. Furthermore, each of these five records were reported on the final day of the study (which varied for some participants; not everyone completed the 30-day period). Considered together, it’s possible that the values in these records don’t represent the results of the entire day. In this case, instead of deleting the records, I replaced the value in the Calories column with the participant’s average throughout the study. This was done in Excel, not SQL.
-
-Here, we will process the data by cleaning and ensuring that it is correct, relevant, complete and free of error and outlier by performing:
+**3)** weightLogInfo_merged.csv
 
 #### 3.3Process
-> Explore and observe data
+
+> Explore and observe data 
 >
 > Check for and treat missing or null values
 >
-> Transform data — format data type
+> Transform data — format data type.
 >
->Perform preliminary statistical analysis
+> Create queries for Visualizations.
+
+
+#### 3.4 Data cleaning and manipulation
+
+> Observe and familiarize with data
+>
+> Check for null or missing values
+>
+> Perform sanity check of data
+
+# STEP 4: ANALYSE
+
+Create Differnt Query tables tp perform Analysis on Excel
+
+* Perform calculations
+ Pulling statistics for analysis:
+
+* count — no. of rows
+
+* mean (average)
+ 
+* std (standard deviation)
+ 
+* min and max
+
+*percentiles 25%, 50%, 75%
 
    
 
