@@ -30,9 +30,9 @@
 
 * A description of all data sources used
 
-*Documentation of any cleaning or manipulation of data
+* Documentation of any cleaning or manipulation of data
 
-*A summary of analysis
+* A summary of analysis
 
 * Supporting visualizations and key findings
 
