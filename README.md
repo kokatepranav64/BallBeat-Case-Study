@@ -141,6 +141,8 @@ Create Differnt Query tables tp perform Analysis on Excel
 
 # Art Of Visualizing Data
 
+![Image](images/vizu.jpg)
+
 Like Bellabeat makes smart technology designed to track, contextualize, and present personal health data to their users in a comprehensible manner. FitBit/Bellabeat Leaf wearers use this data to improve their health, so it makes sense to analyze usage to identify the healthy (and unhealthy) tendencies shown in the data. Primarily, I’ll be looking at sleep, calories, and steps/activity.
 
 ### Sleep
