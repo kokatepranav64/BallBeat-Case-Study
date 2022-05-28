@@ -1,0 +1,20 @@
+# Double checking new table no longer has duplicate rows
+select ID, sleepday, COUNT(*)  as numrows
+from sleeplog
+Group by Id,sleepday
+having numrows > 1;
+==# 0 duplicate rows returned in new table; duplicate rows deleted
+
+# Dropping original Sleepday_merged table; renaming new table
+
+alter table sleepday_merged rename junk;
+
+#DROP TABLE IF EXISTS junk;
+drop table  junk;
+
+# Looking for IDs in SleepLog with more or less than 10 characters
+SELECT Id
+FROM sleeplog
+WHERE LENGTH(Id) > 10 
+OR LENGTH(Id) < 10;
+# No values returned; all IDs in SleepLog have 10 characters

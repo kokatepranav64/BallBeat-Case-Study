@@ -1,0 +1,63 @@
+##Selecting distinct IDs to find number of unique participants with daily activity 
+data
+select distinct 
+				id
+from 
+	dailyactivity_merged ;
+== # 33 unique IDs reported in DailyActivity table
+
+##Finding start and end date of data tracked in DailyActivity table
+select
+Min(ActivityDate) As StartDate,
+Max(ActivityDate) As EndDate
+From
+	dailyactivity_merged;
+==# Start date 2016-4-12, end date 2016-5-12
+
+##Finding duplicate rows, if any, in DailyActivity   
+select ID, ActivityDate, COUNT(*)  as numrows
+from dailyactivity_merged
+Group by Id,ActivityDate
+having numrows > 1;
+==# No results, no duplicate rows in the DailyActivity table
+
+# Double checking that all IDs in DailyActivity have the same number of characters
+select length(id) as charlen
+from weight_merged;
+
+# Looking for IDs in DailyActivity with more or less than 10 characters
+SELECT Id
+FROM dailyactivity_merged
+WHERE LENGTH(Id) > 10 
+OR LENGTH(Id) < 10;
+==# No values returned; all IDs in DailyActivity have 10 characters
+
+# Examining records with 0 in TotalSteps column of DailyActivity table
+SELECT id,
+count(*) as num_of_zero_steps_days
+from dailyactivity_merged
+where TotalSteps = 0
+group by id
+order by num_of_zero_steps_days Desc;
+==# 15 participants with zero-step days
+
+# Examining total number of days (records) with zero steps
+select sum(num_of_zero_steps_days) as totn_days_with_zero_steps
+from(
+	select count(*) as num_of_zero_steps_days
+    from dailyactivity_merged
+    where totalsteps = 0) as z;
+ ==# 77 records with zero steps   
+
+# Looking at all attributes of each zero-step day
+SELECT *, ROUND((SedentaryMinutes / 60), 2) AS SedentaryHours
+FROM DailyActivity_merged
+WHERE TotalSteps = 0;
+
+# Deleting rows where TotalSteps = 0; see above for explanation
+DELETE FROM DailyActivity_merged
+WHERE TotalSteps = 0
+;
+
+
+

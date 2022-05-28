@@ -1,0 +1,37 @@
+# Selecting unique IDs in weight_merged table
+select distinct
+				id
+from 
+	weight_merged;
+ ==## 8 unique IDs reported in weight_merged table
+
+# Finding start and end date of data tracked in weight_merged table
+select
+Min(date) As StartDate,
+Max(date) As EndDate
+From
+	weight_merged;
+==# Start date 2016-4-12, end date 2016-5-12
+
+# Finding duplicate rows, if any, in weight_merged table
+select ID, Date, COUNT(*)  as numrows
+from weight_merged
+Group by Id,Date
+having numrows > 1;
+# 0 duplicate rows returned
+
+# Looking for IDs in weight_merged with more or less than 10 characters
+SELECT Id
+FROM Weight_merged
+WHERE LENGTH(Id) > 10 
+OR LENGTH(Id) < 10;
+# No values returned; all IDs in weight_merged have 10 characters
+
+# Looking at LogIds in weight_merged table to determine if they are its primary key
+select logid,
+count(logid) as numcount
+from weight_merged
+GROUP BY LogId
+HAVING numcount > 1
+ORDER BY numcount DESC;
+# Ten LogIds have a count greater than 1, suggesting there are duplicates or that the LogId column does not contain the primary key to this table.

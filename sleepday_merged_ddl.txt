@@ -1,0 +1,28 @@
+# Selecting unique IDs in sleepday_merged table
+select distinct
+                id
+from 
+	sleepday_merged;
+
+# Finding start and end date of data tracked in sleepday_merged table    
+select
+Min(SleepDay) As StartDate,
+Max(SleepDay) As EndDate
+From
+	sleepday_merged;
+==# Start date 2016-4-12, end date 2016-5-12
+
+# Finding duplicate rows, if any, in sleepday_merged 
+select ID, sleepday, COUNT(*)  as numrows
+from sleepday_merged
+Group by Id,sleepday
+having numrows > 1;
+==# 3 duplicate rows returned
+
+# Creating new sleepday_merged table with all distinct values
+create table sleeplog
+select distinct*from sleepday_merged;
+
+
+
+[go to nex txt file sleeplog]
