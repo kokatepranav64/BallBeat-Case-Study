@@ -6,11 +6,11 @@
 
 In this step, we define the problem and objectives of our case study and its desired outcome.
 
-1.0 Background
+#### 1.0 Background
 
-Bellabeat is a high-tech manufacturer of beautifully-designed health-focused smart products for women since 2013. Inspiring and empowering women with knowledge about their own health and habits, Bellabeat has grown rapidly and quickly positioned itself as a tech-driven wellness company for females.
+> Bellabeat is a high-tech manufacturer of beautifully-designed health-focused smart products for women since 2013. Inspiring and empowering women with knowledge about their own health and habits, Bellabeat has grown rapidly and quickly positioned itself as a tech-driven wellness company for females.
 
-The co-founder and Chief Creative Officer, Urška Sršen is confident that an analysis of non-Bellebeat consumer data (ie. FitBit fitness tracker usage data) would reveal more opportunities for growth.
+> The co-founder and Chief Creative Officer, Urška Sršen is confident that an analysis of non-Bellebeat consumer data (ie. FitBit fitness tracker usage data) would reveal more opportunities for growth.
 
 #### 1.2 Business Task:
 
@@ -21,7 +21,7 @@ Analyze FitBit fitness tracker data to gain insights into how consumers are usin
 * What are the trends identified?
 
 * How could these trends apply to Bellabeat customers?
-* 
+ 
 * How could these trends help influence Bellabeat marketing strategy?
 
 #### 1.4 Deliverables:
@@ -72,14 +72,14 @@ In the Prepare phase, we identify the data being used and its limitations.
 
 A good data source is ROCCC which stands for Reliable, Original, Comprehensive, Current, and Cited.
 
-Reliable — LOW — Not reliable as it only has 30 respondents
+> Reliable — LOW — Not reliable as it only has 30 respondents
 
-Original — LOW — Third party provider (Amazon Mechanical Turk)
+> Original — LOW — Third party provider (Amazon Mechanical Turk)
 
-Comprehensive — MED — Parameters match most of Bellabeat products’ parameters
+> Comprehensive — MED — Parameters match most of Bellabeat products’ parameters
 
-Current — LOW — Data is 5 years old and may not be relevant
+> Current — LOW — Data is 5 years old and may not be relevant
 
-Cited — LOW — Data collected from third party, hence unknown
+> Cited — LOW — Data collected from third party, hence unknown
 
-Overall, the dataset is considered bad quality data and it is not recommended to produce business recommendations based on this data.
+> Overall, the dataset is considered bad quality data and it is not recommended to produce business recommendations based on this data.
