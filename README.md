@@ -84,4 +84,31 @@ A good data source is ROCCC which stands for Reliable, Original, Comprehensive, 
 >
 > Overall, the dataset is considered bad quality data and it is not recommended to produce business recommendations based on this data.
 
-# Cleaning data
+# Step 3: Process Data From Dirty To clean 
+
+## 3.1 Tools
+   We are using Mysql for data cleaning, transformation and creating Queries and visualisation using Excel
+
+## 3.2 Cleaning The Data
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
